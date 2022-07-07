@@ -1,31 +1,28 @@
-main
-{
+main {
+    padding: 50px;
     display: flex;
+    font-family: sans-serif;
 }
 
-.slider
-{
+.slider {
     width: 50%;
     display: flex;
 }
 
-.description
-{
+.description {
     width: 50%;
 }
 
-.slider .slider__images
-{
+.slider .slider__images {
     width: 16%;
 }
-.slider .slider__images img
-{
-    width: 150px;
+
+.slider .slider__images img {
+    width: 100%;
     height: 200px;
 }
 
-.slider .slider__switch-button
-{
+.slider .slider__switch-button {
     width: 100%;
     text-align: center;
 }
@@ -33,12 +30,130 @@ main
 .slider .slider__switch-button button {
     height: 60px;
     transform: rotate(90deg);
+    font-size: 20px;
+
 }
 
-.slider .slider__main-image img
-{
-    width: 500px;
+.slider .slider__main-image img {
+    width: 90%;
     height: 600px;
-    margin-left: 20%;
+    margin-left: 30%;
+
 }
+
+.slider .slider__button {
+    width: 40px;
+    height: 30px;
+    background: white;
+    border: 2px solid #ebebeb;
+}
+
+.description .description__nav {
+
+    margin-top: 25px;
+}
+
+.description .description__nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #1175e7;
+}
+
+.description .description__price {
+    display: flex;
+    margin-top: 50px;
+}
+
+.description .description__price p {
+    margin-right: 20px;
+    font-size: 18pt;
+}
+
+.description .description__price .description__p-line-through {
+    text-decoration: line-through;
+    color: #bfbebe;
+}
+
+.description .description__price .description__p {
+    color: #9a9b9b;
+}
+
+.description .description__price .description__p-promo {
+    margin-left: 40px;
+}
+
+
+.description .description__price .description__p-promo span {
+    font-size: 15pt;
+
+}
+
+.description .description__available {
+    background: #f4f4f4;
+    padding: 20px;
+    width: 50%;
+}
+
+.description .description__available .description__span img {
+    width: 32px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.description .description__buttons {
+    margin-top: 50px;
+}
+
+.description .description__buttons button {
+    width: 240px;
+    height: 40px;
+    margin-right: 20px;
+    font-size: 13pt;
+}
+
+.description .description__buttons .description__button-basket {
+    color: white;
+    background: #006be5;
+    border: none;
+}
+
+.description .description__buttons .description__button-favorites {
+    background: none;
+    border: 2px solid #d9d9d9;
+}
+
+.description .description__text {
+    width: 60%;
+    margin-top: 40px;
+}
+
+.description .description__images {
+    margin-left: 21px;
+}
+
+.description .description__share img {
+    vertical-align: middle;
+    width: 31px;
+    height: 31px;
+    margin-left: 21px;
+}
+
+
+.description .description__count {
+    width: 46px;
+    height: 31px;
+    background-image: url('../img/7.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.description .description__count p {
+    margin-top: 8px;
+    font-size: 10pt;
+}
+
+
 
