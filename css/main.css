@@ -1,0 +1,44 @@
+main
+{
+    display: flex;
+}
+
+.slider
+{
+    width: 50%;
+    display: flex;
+}
+
+.description
+{
+    width: 50%;
+}
+
+.slider .slider__images
+{
+    width: 16%;
+}
+.slider .slider__images img
+{
+    width: 150px;
+    height: 200px;
+}
+
+.slider .slider__switch-button
+{
+    width: 100%;
+    text-align: center;
+}
+
+.slider .slider__switch-button button {
+    height: 60px;
+    transform: rotate(90deg);
+}
+
+.slider .slider__main-image img
+{
+    width: 500px;
+    height: 600px;
+    margin-left: 20%;
+}
+
