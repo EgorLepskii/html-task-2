@@ -5,7 +5,7 @@
 let images = document.querySelectorAll('.slider__img');
 
 /**
- * Получим блок с главным изображением
+ * Получим главное изображение
  *
  * @type {Element}
  */
