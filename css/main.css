@@ -1,11 +1,12 @@
 main {
-    padding: 50px;
+    padding: 100px;
     display: flex;
+    justify-content: space-between;
     font-family: sans-serif;
 }
 
 .slider {
-    width: 50%;
+    width: 800px;
     display: flex;
 }
 
@@ -14,13 +15,15 @@ main {
 }
 
 .slider .slider__images {
-    width: 16%;
+    width: 91px;
 }
 
 .slider .slider__images img {
-    width: 100%;
-    height: 200px;
+    width: 90px;
+    height: 130px;
+    margin-top: 30px;
 }
+
 
 .slider .slider__switch-button {
     width: 100%;
@@ -31,15 +34,16 @@ main {
     height: 60px;
     transform: rotate(90deg);
     font-size: 20px;
+    margin-top: 30px;
 
 }
 
 .slider .slider__main-image img {
-    width: 90%;
+    margin-left: 110px;
+    width: 370px;
     height: 600px;
-    margin-left: 30%;
-
 }
+
 
 .slider .slider__button {
     width: 40px;
@@ -48,12 +52,16 @@ main {
     border: 2px solid #ebebeb;
 }
 
-.description .description__nav {
+.description {
+    width: 800px;
+}
+
+.description .description__links {
 
     margin-top: 25px;
 }
 
-.description .description__nav a {
+.description .description__links a {
     margin-right: 20px;
     text-decoration: none;
     color: #1175e7;
@@ -61,7 +69,11 @@ main {
 
 .description .description__price {
     display: flex;
-    margin-top: 50px;
+    margin-top: 56px;
+}
+
+.description__header .description__h {
+    letter-spacing: 3px;
 }
 
 .description .description__price p {
@@ -79,7 +91,7 @@ main {
 }
 
 .description .description__price .description__p-promo {
-    margin-left: 40px;
+    margin-left: 36px;
 }
 
 
@@ -91,7 +103,7 @@ main {
 .description .description__available {
     background: #f4f4f4;
     padding: 20px;
-    width: 50%;
+    width: 400px;
 }
 
 .description .description__available .description__span img {
@@ -101,12 +113,12 @@ main {
 }
 
 .description .description__buttons {
-    margin-top: 50px;
+    margin-top: 49px;
 }
 
 .description .description__buttons button {
-    width: 240px;
-    height: 40px;
+    min-width: 240px;
+    min-height: 40px;
     margin-right: 20px;
     font-size: 13pt;
 }
@@ -131,29 +143,43 @@ main {
     margin-left: 21px;
 }
 
+.description .description__share {
+    display: flex;
+    align-items: center;
+}
+
+.description__share .description__social {
+    margin-left: 22px;
+}
+
+.description__share .description__social a {
+    text-decoration: none;
+}
+
+
 .description .description__share img {
     vertical-align: middle;
-    width: 31px;
-    height: 31px;
-    margin-left: 21px;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
 }
 
 
 .description .description__count {
     width: 46px;
-    height: 31px;
+    height: 32px;
     background-image: url('../img/7.png');
     background-repeat: no-repeat;
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    margin-left: 10px;
 }
 
 .description .description__count p {
     margin-top: 8px;
     font-size: 10pt;
 }
+
 
 
 
