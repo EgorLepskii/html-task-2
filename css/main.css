@@ -180,6 +180,31 @@ main {
     font-size: 10pt;
 }
 
+.description__product-count-block {
+    width: 300px;
+}
+
+.description__product-count-block {
+    margin-top: 50px;
+}
+
+.description__product-count-block .description__count-buttons {
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: 1px solid #cacaca;
+    cursor: pointer;
+}
+
+.description__product-count-block .description__product-count {
+    height: 28px;
+    width: 50px;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    border: 1px solid #cacaca;
+}
+
 
 
 

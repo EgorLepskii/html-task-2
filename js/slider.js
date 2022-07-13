@@ -1,5 +1,6 @@
 /**
  * Получаем все изображения из списка изображений для выбора
+ *
  * @type {NodeListOf<Element>}
  */
 let images = document.querySelectorAll('.slider__img');
