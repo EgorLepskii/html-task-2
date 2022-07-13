@@ -41,7 +41,8 @@ main {
 .slider .slider__main-image img {
     margin-left: 110px;
     width: 370px;
-    height: 600px;
+    height: 500px;
+    transition: .3s;
 }
 
 

@@ -1,9 +1,11 @@
-/**
- * Получаем элемент input с текущим значением количества
- *
- * @type {*|jQuery|HTMLElement}
- */
-const countInput = $('.description__product-count-block .description__product-count');
+{
+    /**
+     * Получаем элемент input с текущим значением количества
+     *
+     * @type {*|jQuery|HTMLElement}
+     */
+    const countInput = $('.description__product-count-block .description__product-count');
+
 
 /**
  * Получаем кнопку уменьшения количества товаров
@@ -97,3 +99,5 @@ $('.description__product-count-block .description__increase').click((e) => {
      */
     decreaseDescriptionButton.css('color', 'black');
 });
+
+}
