@@ -20,8 +20,8 @@
      * При наведении на изображение увеличиваем его ширину и высоту
      */
     mainImage.mousemove((e) => {
-        mainImage.width(defaultImageWidth + 100);
-        mainImage.height(defaultImageHeight + 100);
+        mainImage.width(defaultImageWidth + 200);
+        mainImage.height(defaultImageHeight + 200);
     });
 
     /**

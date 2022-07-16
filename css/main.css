@@ -1,16 +1,40 @@
+
+@font-face {
+    font-family: "WebFont1";
+    src: url(circe_600.woff2) format("woff2");
+    font-weight: bold;
+
+}
+
+@font-face {
+    font-family: "WebFont2";
+    src: url(circe_700.woff2) format("woff2");
+    font-weight: bold;
+
+}
+
+@font-face {
+    font-family: "WebFont3";
+    src: url(circe_300.woff2) format("woff2");
+    font-weight: bold;
+
+}
+
 main {
     padding: 100px;
     display: flex;
-    font-family: sans-serif;
+    justify-content: space-between;
+    font-family: WebFont2, sans-serif;
+
 }
 
 .slider {
-    width: 900px;
+    width: 800px;
     display: flex;
 }
 
 .description {
-    width: 800px;
+    width: 50%;
 }
 
 .slider .slider__images {
@@ -42,7 +66,6 @@ main {
     width: 370px;
     height: 500px;
     transition: .3s;
-    margin-top: 50px;
 }
 
 
@@ -66,6 +89,7 @@ main {
     margin-right: 20px;
     text-decoration: none;
     color: #1175e7;
+    font-family: WebFont3, sans-serif;
 }
 
 .description .description__price {
@@ -80,6 +104,7 @@ main {
 .description .description__price p {
     margin-right: 20px;
     font-size: 18pt;
+    font-family: WebFont1, sans-serif;
 }
 
 .description .description__price .description__p-line-through {
@@ -98,13 +123,14 @@ main {
 
 .description .description__price .description__p-promo span {
     font-size: 15pt;
-
+    font-family: sans-serif;
 }
 
 .description .description__available {
     background: #f4f4f4;
     padding: 20px;
     width: 400px;
+    font-family: WebFont, sans-serif;
 }
 
 .description .description__available .description__span img {
@@ -138,6 +164,7 @@ main {
 .description .description__text {
     width: 60%;
     margin-top: 40px;
+    font-family: WebFont3, sans-serif;
 }
 
 .description .description__images {
@@ -147,6 +174,7 @@ main {
 .description .description__share {
     display: flex;
     align-items: center;
+    font-family: WebFont3, sans-serif;
 }
 
 .description__share .description__social {
